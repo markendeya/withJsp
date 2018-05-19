@@ -38,7 +38,7 @@ public class SetSession extends HttpServlet {
 		hs.setAttribute("book3", s3);
 		pw.println("<html><body bgcolor=cyan text=blue><center>");
 		pw.println("<h1>Your books are added to cart</h1>");
-		pw.println("<a href=get > Next </a>");
+		pw.println("<a href=Welcome.jsp > Next </a>");
 		pw.println("</center></body></html>");
 	}
 
